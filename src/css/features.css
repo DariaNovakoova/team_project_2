@@ -1,3 +1,20 @@
 .features {
   background-color: aqua;
 }
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.swiper-pagination-bullet-active {
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+}
