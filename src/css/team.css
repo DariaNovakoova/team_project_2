@@ -1,0 +1,65 @@
+.team-section {
+  padding: 80px 0;
+}
+
+.team-container {
+  max-width: 1278px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: 1px solid red;
+}
+
+.team-title {
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 80px;
+}
+
+.team-describe {
+  max-width: 886px;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0 auto 56px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-point {
+  border-radius: 15px;
+  background: linear-gradient(
+      318deg,
+      rgba(0, 197, 235, 0.5) 0%,
+      rgba(181, 68, 254, 0.5) 100%
+    ),
+    #06071b;
+  backdrop-filter: blur(17.5px);
+}
+
+.team-name {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.team-prof {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 171.429% */
+}
