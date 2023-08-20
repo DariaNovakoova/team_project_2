@@ -5,9 +5,14 @@
     <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
     
-    <script type="module" crossorigin src="/vanilla-app-template/assets/index-b820f8c7.js"></script>
-    <link rel="stylesheet" href="/vanilla-app-template/assets/index-ff7101f0.css">
+    <script type="module" crossorigin src="/vanilla-app-template/assets/index-51d30ed8.js"></script>
+    <link rel="stylesheet" href="/vanilla-app-template/assets/index-c092e367.css">
   </head>
   <body>
     <header>
@@ -86,8 +91,33 @@
 <div class="overlay js-overlay-modal"></div>
 
       <section class="features">
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptas.</p>
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+          voluptas.
+        </p>
+      </div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <!-- <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div> -->
+
+    <!-- If we need scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
 </section>
+
       <section class="video">
     <p>Lorem ipsum dolor sit amet.</p>
 </section>
@@ -99,6 +129,8 @@
     <footer>
       
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     
   </body>
